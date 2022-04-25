@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "ThongTinCaNhan";
+    Layout = "~/Views/_LayoutPageTrangChu.cshtml";
+}
+
+
+<h2>THÔNG TIN CHI TIẾT</h2>
+<br />
+<div class="card border-dark">
+    <table class="border-dark mx-3 mt-3 mb-3">
+        <tr class="text-left">
+            <td rowspan="7" width="40%">
+                <img src="~/Assets/Image/TinTuc/DV01.jpg" class="card-img-top" alt="...">
+            </td>
+            <td>Họ và tên:</td>
+            <td style="font-weight:bold; color:blue; font-size:19px">@Model.hoten</td>
+        </tr>
+        <tr class="text-left">
+            <td>Ngày Sinh:</td>
+            <td style="color:blue">@String.Format("{0:d}", Model.ngaysinh)</td>
+        </tr>
+        <tr class="text-left">
+            <td>Quê Quán: </td>
+            <td style="color:black">@Model.diachi</td>
+        </tr>
+        <tr class="text-left">
+            <td>Mã Bảo Hiểm Xã Hội :</td>
+            <td style="font-weight:bold; color:red;">@Model.mabhxh</td>
+        </tr>
+
+        <tr class="text-left">
+            <td>Thuyền Viên Thuộc Tàu: </td>
+            <td style="color:blue">@Model.matau</td>
+        </tr>
+        <tr class="text-left">
+            <td>Căn Cước Công Dân: </td>
+            <td style="color:blue">@Model.cccd</td>
+        </tr>
+        <tr>
+            <td>
+                @if (Model.maloai.Trim() == "TT")
+                {
+                    <p class="card-text">Chức Vụ:
+                <td>Thuyền Trưởng</td></p>
+
+                }
+                @if (Model.maloai.Trim() == "TV")
+                {
+                    <p class="card-text">Chức Vụ:
+                    <td>Thuyền Viên</td></p>
+                }
+                @if (Model.maloai.Trim() == "NVVP")
+                {
+                    <p class="card-text">Chức Vụ:
+                    <td>Nhân viên văn phòng</td></p>
+                }
+                </td>
+            </tr>
+        </table>
+    </div>

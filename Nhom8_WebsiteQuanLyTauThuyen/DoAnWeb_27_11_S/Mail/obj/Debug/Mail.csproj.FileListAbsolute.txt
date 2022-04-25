@@ -1,0 +1,26 @@
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/Mail/bin/Debug/Mail.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/Mail/bin/Debug/Mail.pdb
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/Mail/obj/Debug/Mail.csproj.CoreCompileInputs.cache
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/Mail/obj/Debug/Mail.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/Mail/obj/Debug/Mail.pdb
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/Mail/obj/Debug/Mail.csproj.AssemblyReference.cache
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/Mail/bin/Debug/Mail.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/Mail/bin/Debug/Mail.pdb
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/Mail/obj/Debug/Mail.csproj.AssemblyReference.cache
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/Mail/obj/Debug/Mail.csproj.CoreCompileInputs.cache
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/Mail/obj/Debug/Mail.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/Mail/obj/Debug/Mail.pdb
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.pdb
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\Mail\bin\Debug\Mail.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\Mail\bin\Debug\Mail.pdb
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\Mail\bin\Debug\Mail.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\Mail\bin\Debug\Mail.pdb
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.csprojResolveAssemblyReference.cache
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.pdb
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\Mail\bin\Debug\Mail.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\Mail\bin\Debug\Mail.pdb
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.csprojResolveAssemblyReference.cache
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\Mail\obj\Debug\Mail.pdb

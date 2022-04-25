@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "TaoTin";
+    Layout = "~/Views/_LayoutPageTrangChu.cshtml";
+}
+
+<h2>TẠO TIN TỨC </h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    {
+        <select class="form-select" aria-label="Default select example" name="txtLoaiTin">
+            <option selected>Chọn Loại Tin</option>
+            <option value="1">TIN HOẠT ĐỘNG</option>
+            <option value="2">TIN TỔNG HỢP</option>
+            <option value="3">TIN CỦA CÁC ĐƠN VỊ TRONG NGÀNH HÀNG HẢI</option>
+            <option value="4">BÀI VIẾT THAM KHẢO</option>
+
+        </select>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Tiêu Đề</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nhập Tiêu Đề Cho bài Viết" name="txttitle">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Nội Dung</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="txtContent"></textarea>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+            <input type="file" class="form-control" name="txtfile" id="inputGroupFile01">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Link</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nhập link" name="txtlink">
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Đăng Bài</button>
+        </div>
+        <p>@ViewBag.thongbao</p>
+    }
+}

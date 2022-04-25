@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "ThemNhanVien";
+    Layout = "~/Views/_LayoutPageTrangChu.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+        <li class="breadcrumb-item" aria-current="page">Thông Tin Cá Nhân</li>
+        <li class="breadcrumb-item " aria-current="page">Thông Tin Các Thuyền Viên Của Tàu @ViewBag.matau</li>
+        <li class="breadcrumb-item active" aria-current="page">Thêm Nhân Viên</li>
+    </ol>
+</nav>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+        <table>
+            <tr>
+                <td colspan="2">Thêm Thuyền Viên Mới</td>
+            </tr>
+            <tr>
+                <td>Họ Tên</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="Họ Tên" name="txtHoten">
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày Sinh</td>
+                <td>
+                    <input type="date" class="form-control" name="txtdate">
+                </td>
+            </tr>
+            <tr>
+                <td>Địa Chỉ</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="Địa Chỉ" name="txtdiachi">
+                </td>
+            </tr>
+            <tr>
+                <td>Mã BHXH</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="BHXH" name="txtbhxh">
+                </td>
+            </tr>
+            <tr>
+                <td>Căn Cước</td>
+                <td>
+                    <input type="text" class="form-control" placeholder="CCCD" name="txtcc">
+                </td>
+            </tr>
+            <tr>
+                <td>Chức Vụ</td>
+                <td>
+                    <select class="form-select" aria-label="Default select example" name="txtchucvu">
+                        <option selected>Chọn Chức Vụ</option>
+                        <option value="TT">Thuyền Trưởng</option>
+                        <option value="TV">Thuyền Viên</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" class="btn btn-primary">Thêm</button></td>
+            </tr>
+        </table>
+}

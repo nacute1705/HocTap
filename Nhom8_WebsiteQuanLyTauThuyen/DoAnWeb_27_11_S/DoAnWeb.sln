@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoAnWeb", "DoAnWeb\DoAnWeb.csproj", "{F1EFBDCC-E03C-41B8-BABF-8481CBE72C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail", "Mail\Mail.csproj", "{09944EF4-DE34-48D4-828A-35313B648F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EFBDCC-E03C-41B8-BABF-8481CBE72C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EFBDCC-E03C-41B8-BABF-8481CBE72C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EFBDCC-E03C-41B8-BABF-8481CBE72C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EFBDCC-E03C-41B8-BABF-8481CBE72C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09944EF4-DE34-48D4-828A-35313B648F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09944EF4-DE34-48D4-828A-35313B648F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09944EF4-DE34-48D4-828A-35313B648F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09944EF4-DE34-48D4-828A-35313B648F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0472ED4-355D-408B-B2DC-9E69CB9B398B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿@using DoAnWeb.Models
+@model List<loaitin>
+
+@foreach (var item in Model)
+{
+    <li><a class="dropdown-item" href="@Url.Action("ChiTietTinTuc","TrangChu",new {@maloai=item.maloai })">@item.tenloai</a></li>
+}
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#">Tin Khác</a></li>

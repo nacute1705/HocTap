@@ -1,0 +1,218 @@
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/DoAnWeb.dll.config
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/DoAnWeb.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/DoAnWeb.pdb
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/Antlr3.Runtime.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/EntityFramework.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/Microsoft.Web.Infrastructure.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/Microsoft.Web.Mvc.FixedDisplayModes.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/Newtonsoft.Json.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Net.Http.Formatting.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Http.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Http.WebHost.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Mvc.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Optimization.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Providers.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Razor.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Deployment.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Razor.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/WebGrease.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/EntityFramework.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/Newtonsoft.Json.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Net.Http.Formatting.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Http.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Http.WebHost.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Mvc.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.Razor.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Deployment.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Razor.xml
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.csprojResolveAssemblyReference.cache
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.dll
+//Mac/Home/Desktop/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.pdb
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.csproj.AssemblyReference.cache
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.csproj.CoreCompileInputs.cache
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/DoAnWeb.dll.config
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/DoAnWeb.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/DoAnWeb.pdb
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Antlr3.Runtime.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/EntityFramework.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Mail.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Microsoft.Web.Infrastructure.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Newtonsoft.Json.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Net.Http.Formatting.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Http.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Http.WebHost.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Mvc.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Optimization.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Providers.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Razor.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Deployment.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Razor.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/WebGrease.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Mail.pdb
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/EntityFramework.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/Newtonsoft.Json.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Net.Http.Formatting.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Http.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Http.WebHost.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Mvc.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.Razor.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Deployment.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/bin/System.Web.WebPages.Razor.xml
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.dll
+E:/HK1_Nam_3/Công Nghệ Web/DoAnWeb/DoAnWeb/obj/Debug/DoAnWeb.pdb
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/DoAnWeb.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/DoAnWeb.pdb
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Antlr3.Runtime.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/EntityFramework.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Mail.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Microsoft.Web.Infrastructure.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Microsoft.Web.Mvc.FixedDisplayModes.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Newtonsoft.Json.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Net.Http.Formatting.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Http.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Http.WebHost.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Mvc.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Optimization.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Providers.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Razor.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.WebPages.Deployment.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.WebPages.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.WebPages.Razor.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/WebGrease.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Mail.pdb
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/EntityFramework.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/Newtonsoft.Json.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Net.Http.Formatting.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Http.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Http.WebHost.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Mvc.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.Razor.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.WebPages.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.WebPages.Deployment.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/bin/System.Web.WebPages.Razor.xml
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/obj/Debug/DoAnWeb.csproj.AssemblyReference.cache
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/obj/Debug/DoAnWeb.csproj.CoreCompileInputs.cache
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/obj/Debug/DoAnWeb.csproj.CopyComplete
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/obj/Debug/DoAnWeb.dll
+/Users/ngochieu/Desktop/DoAnWeb_27_11_S/DoAnWeb/obj/Debug/DoAnWeb.pdb
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.pdb
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.dll.config
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.pdb
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Antlr3.Runtime.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Http.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Optimization.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Providers.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\WebGrease.dll
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.pdb
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Http.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Desktop\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.dll.config
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.pdb
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Antlr3.Runtime.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Optimization.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Providers.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\WebGrease.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.pdb
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.dll
+E:\cong nghe web\đồ án cn web\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.pdb
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.pdb
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Antlr3.Runtime.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Optimization.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Providers.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\WebGrease.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.pdb
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.dll
+C:\Users\Na\Desktop\New folder (2)\DoAnWeb_27_11_S\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.pdb
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\DoAnWeb.pdb
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Antlr3.Runtime.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Optimization.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Providers.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\WebGrease.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Mail.pdb
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\EntityFramework.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\Newtonsoft.Json.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Mvc.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.Razor.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.dll
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.pdb
+C:\Users\Na\Desktop\Nhom8_WebsiteQuanLyTauThuyen\DoAnWeb_27_11_S\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache

@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "LienHe";
+    Layout = "~/Views/_LayoutPageTrangChu.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Liên Hệ</li>
+    </ol>
+</nav>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Địa chỉ Email gửi</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="thuyna@gmail.com" name="txtmail">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Nội dung</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="txtcontent"></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Gửi" />
+    <p>@ViewBag.thongbao</p>
+}

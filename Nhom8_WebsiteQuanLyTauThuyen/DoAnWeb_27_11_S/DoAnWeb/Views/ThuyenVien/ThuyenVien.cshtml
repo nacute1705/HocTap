@@ -1,0 +1,60 @@
+﻿@model IEnumerable<DoAnWeb.Models.NHANVIEN>
+@{
+    ViewBag.Title = "ThuyenVien";
+    Layout = "~/Views/_LayoutPageTrangChu.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+        <li class="breadcrumb-item" aria-current="page">Thông Tin Cá Nhân</li>
+        <li class="breadcrumb-item active" aria-current="page">Thông Tin Các Thuyền Viên Của Tàu @ViewBag.matau</li>
+    </ol>
+</nav>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>STT</td>
+            <td>Tên Thành Viên</td>
+            <td>Chức Vụ</td>
+            <td colspan="3">Tùy Chỉnh</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="4"></td>
+            <td><a href="@Url.Action("ThemNhanVien", "NhanVien",new {@matau=ViewBag.matau })" class="btn btn-light">Thêm Mới</a></td>
+        </tr>
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>@item.id</td>
+        <td>@item.hoten</td>
+        @if (item.maloai.Trim() == "TT")
+        {
+            <td>Thuyền Trưởng</td>
+
+
+
+        }
+        else
+        {
+            <td>Thuyền Viên</td>
+
+        }
+        @if (Session["admin"] != null)
+        {
+            <td><a href="@Url.Action("ChiTietNhanVien", "NhanVien", new { @id = item.id })" class="btn btn-light">Chi Tiết</a></td>
+            <td><a href="@Url.Action("XoaNhanVien", "NhanVien", new { @id = item.id })" class="btn btn-danger">Xóa</a></td>
+            <td><a href="@Url.Action("SuaNhanVien", "NhanVien", new { @id = item.id })" class="btn btn-warning">Sửa</a></td>
+
+
+        }
+        else
+        {
+            <td colspan="3"><a href="@Url.Action("ChiTietNhanVien", "NhanVien", new { @id = item.id,@matau=ViewBag.matau })" class="btn btn-light">Chi Tiết</a></td>
+        }
+    </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,63 @@
+﻿@model DoAnWeb.Models.TOADOTAU
+@{
+    ViewBag.Title = "XemToaDoThuyenTruong";
+    Layout = "~/Views/_LayoutPageTrangChu.cshtml";
+}
+
+<title>@ViewBag.Title</title>
+
+<h2 style="background-color: Yellow;color: Blue; text-align: center; font-style: oblique">TỌA ĐỘ THUYỀN HIỆN TẠI</h2>
+<fieldset>
+    <legend style="font-family: Arial Black; color: blue; font-size: large;"></legend>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(@Model.latutude, @Model.longitude);
+            var mapProp = { center: myCenter, zoom: 12, scrollwheel: false, draggable: true, mapTypeId: google.maps.MapTypeId.ROADMAP };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            var marker = new google.maps.Marker({ position: myCenter });
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDID1xpuiGTo8mEft0Nqxu-i-btc5B8Hnk&callback=myMap"></script>
+</fieldset>
+</br>
+</br>
+<button class="btn btn-outline-danger" onclick="getLocation()" >LẤY TỌA ĐỘ</button> @*nut de lay toa do tau tu web*@
+</br>
+</br>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Vĩ độ:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="17.052001" name="txtViDo">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Kinh độ:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="17.052001" name="txtKinhDo">
+    </div>
+    <input type="submit" class="btn btn-primary" />
+}
+    
+
+<script>
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        document.getElementById('exampleFormControlInput1').setAttribute('value', position.coords.latitude);
+        document.getElementById('exampleFormControlInput2').setAttribute('value', position.coords.longitude);
+    }
+</script>
