@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 11, 2022 at 04:30 PM
+-- Generation Time: May 19, 2022 at 01:43 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -20,6 +20,75 @@ SET time_zone = "+00:00";
 --
 -- Database: `quanao`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `chitietdonhang`
+--
+
+CREATE TABLE `chitietdonhang` (
+  `Id` int(11) NOT NULL,
+  `Madonhang` int(11) NOT NULL,
+  `MaSP` int(11) NOT NULL,
+  `TenSP` varchar(10000) NOT NULL,
+  `GiaSP` int(11) NOT NULL,
+  `SoluongSP` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `chitietdonhang`
+--
+
+INSERT INTO `chitietdonhang` (`Id`, `Madonhang`, `MaSP`, `TenSP`, `GiaSP`, `SoluongSP`) VALUES
+(1, 1, 1, 'Lace Floral Bow Knot Decor Hair Clip', 180000, 2),
+(2, 2, 2, 'Pearl&Bow Earrings', 120000, 2),
+(3, 2, 25, 'Side Tie Denim Skirt', 550000, 1),
+(4, 2, 23, 'Solid Tassel Cami Top', 370000, 1),
+(5, 2, 1, 'Lace Floral Bow Knot Decor Hair Clip', 180000, 1),
+(6, 3, 17, 'Floral Bell Sleeve Corset Mini Dress', 1600000, 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `donhang`
+--
+
+CREATE TABLE `donhang` (
+  `Id` int(11) NOT NULL,
+  `TenKH` varchar(200) NOT NULL,
+  `Sdt` int(11) NOT NULL,
+  `Email` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `donhang`
+--
+
+INSERT INTO `donhang` (`Id`, `TenKH`, `Sdt`, `Email`) VALUES
+(1, 'Lê Thùy Na', 362417182, 'nalethuy@gmail.com'),
+(2, 'Lê Trung Đô', 963273900, 'dole@gmail.com'),
+(3, 'quyền', 1234456789, 'nalethuy@gmail.com');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `loaisanpham`
+--
+
+CREATE TABLE `loaisanpham` (
+  `Id` int(11) NOT NULL,
+  `TenLoaiSP` varchar(200) NOT NULL,
+  `HinhAnhLSP` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `loaisanpham`
+--
+
+INSERT INTO `loaisanpham` (`Id`, `TenLoaiSP`, `HinhAnhLSP`) VALUES
+(1, 'Quần áo', 'https://www.freeiconspng.com/uploads/gothic-black-dress-png-12.png\r\n'),
+(2, 'Phụ kiện', 'https://www.freeiconspng.com/uploads/jewelry-necklace-clipart-photo-24.png');
 
 -- --------------------------------------------------------
 
@@ -77,6 +146,24 @@ INSERT INTO `sanpham` (`Id`, `TenSP`, `GiaSP`, `HinhAnhSP`, `MoTa`, `IdSP`) VALU
 --
 
 --
+-- Indexes for table `chitietdonhang`
+--
+ALTER TABLE `chitietdonhang`
+  ADD PRIMARY KEY (`Id`);
+
+--
+-- Indexes for table `donhang`
+--
+ALTER TABLE `donhang`
+  ADD PRIMARY KEY (`Id`);
+
+--
+-- Indexes for table `loaisanpham`
+--
+ALTER TABLE `loaisanpham`
+  ADD PRIMARY KEY (`Id`);
+
+--
 -- Indexes for table `sanpham`
 --
 ALTER TABLE `sanpham`
@@ -85,6 +172,24 @@ ALTER TABLE `sanpham`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `chitietdonhang`
+--
+ALTER TABLE `chitietdonhang`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `donhang`
+--
+ALTER TABLE `donhang`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `loaisanpham`
+--
+ALTER TABLE `loaisanpham`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `sanpham`
