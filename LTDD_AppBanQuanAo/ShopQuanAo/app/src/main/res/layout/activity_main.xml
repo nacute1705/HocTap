@@ -19,7 +19,7 @@
             android:id="@+id/toolbarmanhinhchinh"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#4665ce"
+            android:background="#E23BFF"
             app:title="Trang Chính">
 
         </androidx.appcompat.widget.Toolbar>
