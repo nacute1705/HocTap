@@ -8,6 +8,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.LienHeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        app:titleTextColor="@color/white"
+        app:title="Liên hệ">
+
+    </androidx.appcompat.widget.Toolbar>
     <TextView
         android:gravity="center"
         android:layout_marginTop="80dp"
