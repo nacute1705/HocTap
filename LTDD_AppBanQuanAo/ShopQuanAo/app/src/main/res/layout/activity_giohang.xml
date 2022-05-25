@@ -22,15 +22,15 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/textviewthongbao"
+            //chèn vào gif
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imgempty"
                 android:layout_gravity="center"
-                android:text="Giỏ hàng bạn đang trống"
-                android:textSize="30sp"
+                android:src="@drawable/empty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+            </pl.droidsonroids.gif.GifImageView>
 
-            </TextView>
             <ListView
                 android:id="@+id/listviewgiohang"
                 android:layout_width="match_parent"

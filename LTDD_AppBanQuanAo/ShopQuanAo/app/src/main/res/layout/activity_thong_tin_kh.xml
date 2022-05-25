@@ -68,6 +68,19 @@
                 android:layout_height="wrap_content">
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/edittextdiachigiaohang"
+                android:hint="Nhập địa chỉ giao hàng"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:gravity="center"

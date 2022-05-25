@@ -11,7 +11,7 @@
         android:id="@+id/toolbarphukien"
         app:title="Phụ kiện"
         app:titleTextColor="@color/white"
-        android:background="#B4F44336"
+        android:background="#9C27B0"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
     </androidx.appcompat.widget.Toolbar>

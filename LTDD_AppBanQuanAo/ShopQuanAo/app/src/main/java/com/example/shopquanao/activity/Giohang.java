@@ -3,6 +3,7 @@ package com.example.shopquanao.activity;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import pl.droidsonroids.gif.GifImageView;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -25,7 +27,8 @@ import java.util.ArrayList;
 
 public class Giohang extends AppCompatActivity {
     ListView lvgiohang;
-    TextView txtthongbao;
+//    TextView txtthongbao;
+    GifImageView imgempty;
     static TextView txttongtien;
     Button btnthanhtoan,btntieptucmua;
     Toolbar toolbargiohang;
@@ -79,7 +82,8 @@ public class Giohang extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         if(MainActivity.manggiohang.size()<=0)
                         {
-                            txtthongbao.setVisibility(View.VISIBLE);
+//                            txtthongbao.setVisibility(View.VISIBLE);
+                            imgempty.setVisibility(View.VISIBLE);
                         }
                         else
                         {
@@ -88,10 +92,12 @@ public class Giohang extends AppCompatActivity {
                             EvenUltil();
                             if(MainActivity.manggiohang.size()<=0)
                             {
-                                txtthongbao.setVisibility(View.VISIBLE);
+//                                txtthongbao.setVisibility(View.VISIBLE);
+                                imgempty.setVisibility(View.VISIBLE);
                             }
                             else{
-                                txtthongbao.setVisibility(View.INVISIBLE);
+//                                txtthongbao.setVisibility(View.INVISIBLE);
+                                imgempty.setVisibility(View.INVISIBLE);
                                 giohangAdapter.notifyDataSetChanged();//cập nhật lại giỏ hàng
                                 EvenUltil();
                             }
@@ -127,13 +133,16 @@ public class Giohang extends AppCompatActivity {
         if(MainActivity.manggiohang.size() <=0)
         {
             giohangAdapter.notifyDataSetChanged();//cập nhật adapter
-            txtthongbao.setVisibility(View.VISIBLE);
+//            txtthongbao.setVisibility(View.VISIBLE);
+            imgempty.setVisibility(View.VISIBLE);
             lvgiohang.setVisibility(View.INVISIBLE);
         }
         else
         {
             giohangAdapter.notifyDataSetChanged();//cập nhật adapter
-            txtthongbao.setVisibility(View.INVISIBLE);//ẩn
+//            txtthongbao.setVisibility(View.INVISIBLE);//ẩn
+            imgempty.setVisibility(View.INVISIBLE);
+
             lvgiohang.setVisibility(View.VISIBLE);//hiện
         }
     }
@@ -152,7 +161,8 @@ public class Giohang extends AppCompatActivity {
 
     private void Anhxa() {
         lvgiohang = findViewById(R.id.listviewgiohang);
-        txtthongbao=findViewById(R.id.textviewthongbao);
+//        txtthongbao=findViewById(R.id.textviewthongbao);
+        imgempty=findViewById(R.id.imgempty);
         txttongtien=findViewById(R.id.textviewtongtien);
         btnthanhtoan=findViewById(R.id.buttonthanhtoangiohang);
         btntieptucmua=findViewById(R.id.buttontieptucmuahang);

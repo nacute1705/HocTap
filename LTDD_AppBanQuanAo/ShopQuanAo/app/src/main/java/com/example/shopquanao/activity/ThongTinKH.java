@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ThongTinKH extends AppCompatActivity {
-    EditText edttenkhachhang,edtsdt,edtemail;
+    EditText edttenkhachhang,edtsdt,edtemail,edtdiachigiaohang;
     Button  btnxacnhan,btntrove;
 
     @Override
@@ -60,6 +60,7 @@ public class ThongTinKH extends AppCompatActivity {
                 String ten=edttenkhachhang.getText().toString().trim();//.trim : bỏ đi khoảng trắng
                 String sdt=edtsdt.getText().toString().trim();
                 String email=edtemail.getText().toString().trim();
+                String diachigiaohang=edtdiachigiaohang.getText().toString().trim();//.trim : bỏ đi khoảng trắng
                 if(ten.length()>0 &&sdt.length()>0 && email.length()>0)
                 {
                     RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
@@ -135,6 +136,7 @@ public class ThongTinKH extends AppCompatActivity {
                             hashMap.put("TenKH",ten);
                             hashMap.put("Sdt",sdt);
                             hashMap.put("Email",email);
+                            hashMap.put("Diachigiaohang",diachigiaohang);
                             return hashMap;
                         }
                     };
@@ -152,6 +154,7 @@ public class ThongTinKH extends AppCompatActivity {
         edttenkhachhang=findViewById(R.id.edittexttenkhachhang);
         edtsdt=findViewById(R.id.edittextsodienthoai);
         edtemail=findViewById(R.id.edittextemail);
+        edtdiachigiaohang=findViewById(R.id.edittextdiachigiaohang);
         btnxacnhan=findViewById(R.id.buttonxacnhan);
         btntrove=findViewById(R.id.buttontrove);
 
