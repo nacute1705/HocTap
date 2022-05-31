@@ -1,0 +1,163 @@
+{
+  "id": "0f54ad4c-09f5-495c-af70-e8b2d41bde05",
+  "version": "2.0",
+  "name": "TestDN",
+  "url": "http://localhost:27661",
+  "tests": [{
+    "id": "d517007c-01b1-45fc-b961-746dc1b73bfb",
+    "name": "TestDNKhongNhapGi",
+    "commands": [{
+      "id": "20a70d49-c463-40d2-a8c5-08cf5a19c160",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69f59108-408f-4bb1-802e-90d7f6830877",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c0dbb5b-be6e-4c5e-abbf-c8386e42dd8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__top__links:nth-child(1) > a",
+      "targets": [
+        ["css=.header__top__links:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sign in')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangNhap')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fbf2a3e-c75c-4df9-ba01-c4dd4d77adc6",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-floating:nth-child(2) > .mb-2", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53cc0de3-b269-46b6-be02-bcc4d270a26a",
+      "comment": "",
+      "command": "type",
+      "target": "name=pw",
+      "targets": [
+        ["name=pw", "name"],
+        ["css=.form-floating:nth-child(3) > .mb-2", "css:finder"],
+        ["xpath=//input[@name='pw']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1231295-2108-4a23-9cf0-e8df6f24acc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSignin",
+      "targets": [
+        ["id=btnSignin", "id"],
+        ["css=#btnSignin", "css:finder"],
+        ["xpath=//button[@id='btnSignin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a9728c3-6932-435b-ad1d-b2afd9f64571",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-floating:nth-child(2) > .text-danger",
+      "targets": [],
+      "value": "Tên đăng nhập không được bỏ trống"
+    }, {
+      "id": "416b3a07-143e-433d-b150-39fd1a7adde0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-floating:nth-child(3) > .text-danger",
+      "targets": [],
+      "value": "Vui lòng nhập mật khẩu"
+    }]
+  }, {
+    "id": "c9960fcd-d198-4685-ab9b-6dceb58bb1d8",
+    "name": "TestDNFull",
+    "commands": [{
+      "id": "2f27f0b3-25c6-4101-9b58-1b06cca9adf9",
+      "comment": "",
+      "command": "open",
+      "target": "/TaiKhoan/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab0d88b0-3f7b-498c-a318-6d644ad6b3db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7dac7e1-0ebc-499b-b532-3983f625a929",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-floating:nth-child(2) > .mb-2", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TK005"
+    }, {
+      "id": "1ec43d46-32ed-41d6-a47b-216d5d49712b",
+      "comment": "",
+      "command": "type",
+      "target": "name=pw",
+      "targets": [
+        ["name=pw", "name"],
+        ["css=.form-floating:nth-child(3) > .mb-2", "css:finder"],
+        ["xpath=//input[@name='pw']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "7ac23af7-360a-454f-b095-bb3e2e9456dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSignin",
+      "targets": [
+        ["id=btnSignin", "id"],
+        ["css=#btnSignin", "css:finder"],
+        ["xpath=//button[@id='btnSignin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a934447-ef20-49cf-a7e8-0c51cce9112e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__top__links:nth-child(2) > a",
+      "targets": [
+        ["css=.header__top__links:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/TaiKhoan/DangXuat')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c823269d-8bc2-470e-95ef-d7b1ccd7cb39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d517007c-01b1-45fc-b961-746dc1b73bfb"]
+  }],
+  "urls": ["http://localhost:27661/"],
+  "plugins": []
+}

@@ -1,0 +1,216 @@
+{
+  "id": "b49b921b-64e4-4564-a9bf-bd1ca20c5bd4",
+  "version": "2.0",
+  "name": "TestThanhToanGioHang",
+  "url": "http://localhost:27661",
+  "tests": [{
+    "id": "01c5c9d9-13e7-49d8-b5f7-49333ed44b74",
+    "name": "TestThanhToanTC",
+    "commands": [{
+      "id": "79100b04-ffbd-454f-9ecd-3e55160d0c53",
+      "comment": "",
+      "command": "open",
+      "target": "/SanPham/XemChiTiet?masp=2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8394bfda-ee2e-43c2-bcaa-949dcae39559",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9f735f5-fa9a-4205-9852-1bdeffb08ab2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__nav__option > a:nth-child(3) > img",
+      "targets": [
+        ["css=.header__nav__option > a:nth-child(3) > img", "css:finder"],
+        ["xpath=//div/div[3]/div/a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20795407-5236-48e4-a5e7-d8ae8d28f6b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtSoLuong",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1607af0-7525-423f-99dd-7f2b966300df",
+      "comment": "",
+      "command": "assertText",
+      "target": "name=txtSoLuong",
+      "targets": [],
+      "value": "100"
+    }, {
+      "id": "6be02281-eb6f-422c-95da-5eb94f34a1fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) > .btnUpdate",
+      "targets": [
+        ["css=td:nth-child(7) > .btnUpdate", "css:finder"],
+        ["xpath=//input[@value='Update']", "xpath:attributes"],
+        ["xpath=//td[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "729943f3-33de-4a6f-8349-51dc0edccc39",
+      "comment": "",
+      "command": "assertValue",
+      "target": "name=txtSoLuong",
+      "targets": [
+        ["name=txtSoLuong", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='txtSoLuong']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "33ae96cd-2a3b-4e87-9824-ccc36e688f12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-btn",
+      "targets": [
+        ["css=.primary-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed to checkout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/GioHang/XacNhanDonHang/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee6970d-c5cd-4ade-96d8-c6f45057e818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-btn",
+      "targets": [
+        ["css=.primary-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Payment')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/GioHang/ThanhToan/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "956fbde1-6cf0-4f03-a0fa-5714ce725004",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mt-4",
+      "targets": [
+        ["css=.mt-4", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your order is being sent, Thank you for your purchase ♥')]", "xpath:innerText"]
+      ],
+      "value": "Your order is being sent, Thank you for your purchase ♥"
+    }]
+  }, {
+    "id": "31b78f51-29c6-41a0-ba1a-2d42e6c59fee",
+    "name": "TestThanhToanGioHang",
+    "commands": [{
+      "id": "40e73713-d041-431d-9447-cf0b1b9eb487",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd75f316-6721-4038-add1-88dad15605f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fa4575a-59e4-42d8-94e5-ff489645899c",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkout_items",
+      "targets": [
+        ["id=checkout_items", "id"],
+        ["css=#checkout_items", "css:finder"],
+        ["xpath=//span[@id='checkout_items']", "xpath:attributes"],
+        ["xpath=//div/div[3]/div/a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9d1a687-a267-4de9-a04a-087f8551578f",
+      "comment": "",
+      "command": "click",
+      "target": "name=txtSoLuong",
+      "targets": [
+        ["name=txtSoLuong", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='txtSoLuong']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "543e1094-02ca-424b-bee4-2fb506df5b9b",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtSoLuong",
+      "targets": [],
+      "value": "-100"
+    }, {
+      "id": "5260ff8b-7e1d-4936-b7ce-630615f2a36e",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(7) > .btnUpdate",
+      "targets": [
+        ["css=td:nth-child(7) > .btnUpdate", "css:finder"],
+        ["xpath=//input[@value='Update']", "xpath:attributes"],
+        ["xpath=//td[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b5bed66-9310-4e5c-b3d1-2f9354fd95d4",
+      "comment": "",
+      "command": "assertValue",
+      "target": "name=txtSoLuong",
+      "targets": [],
+      "value": "1"
+    }, {
+      "id": "29f11e4d-c011-46c8-8a4c-896f5c3ae739",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-btn",
+      "targets": [
+        ["css=.primary-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed to checkout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/GioHang/XacNhanDonHang/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e786247-0b21-41a9-ba3f-426314f9c432",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-btn",
+      "targets": [
+        ["css=.primary-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Payment')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/GioHang/ThanhToan/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4edab9e-c12a-4e56-b2d8-c985e1d5ca0f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mt-4",
+      "targets": [],
+      "value": "Your order is being sent, Thank you for your purchase ♥"
+    }]
+  }],
+  "suites": [{
+    "id": "9220be3a-11dc-475d-9576-1bb8995daa7d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:27661/"],
+  "plugins": []
+}
